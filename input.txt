@@ -1,0 +1,6 @@
+add ax,bx
+and al,bl
+or ecx,ebx
+sub [al],bl
+add ax,cx
+or cx,[bx]

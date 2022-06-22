@@ -1,0 +1,17 @@
+add ax,bx
+and al,bl
+or ecx,ebx
+sub [al],bl
+add ax,cx
+or cx,[bx]
+
+command register32Bit,register32Bit
+command register16Bit,register16Bit
+command register8Bit,register8Bit
+
+command [register32Bit],register32Bit
+command register32Bit,[register32Bit]
+command [register16Bit],register16Bit
+command register16Bit,[register16Bit]
+command [register8Bit],register8Bit
+command register8Bit,[register8Bit]
